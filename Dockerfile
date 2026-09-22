@@ -11,5 +11,4 @@ RUN pip install --no-cache-dir -U -r requirements.txt
 COPY . .
 
 
-
 CMD ["python", "cardinal.py"]
