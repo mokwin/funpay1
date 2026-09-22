@@ -10,6 +10,6 @@ RUN pip install --no-cache-dir -U -r requirements.txt
 
 COPY . .
 
-VOLUME ["/app/configs", "/app/logs", "/app/storage", "/app/plugins"]
+
 
 CMD ["python", "main.py"]
